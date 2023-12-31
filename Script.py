@@ -148,11 +148,11 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b><a href="https://t.me/lusifilms">{file_name}</a><b> 
+<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b><a href="https://t.me/myfilmyduniya0143">{file_name}</a><b> 
 
 ========== • ✠ • ==========
 ▫️ Backup Channel:  <a href="https://t.me/myfilmyduniya0143">Click Here</a>
-▫️ Request Group :  <a href="https://t.me/Apnamovie4">Click Here</a>
+▫️ Request Group :  <a href="https://t.me/Movie_Request_1m">Click Here</a>
 ========== • ✠ • ==========
 </b>"""
 
