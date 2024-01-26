@@ -40,7 +40,7 @@ home_template = """
 </head>
 <body>
     <!-- Image above the chatbot title -->
-    <img src="https://graph.org/file/8419093249616a6a9ca69.jpg" alt="Chatbot Image" class="chatbot-image">
+    <img src="https://graph.org/file/877fc19185d6b59cf6b4d.jpg" alt="Chatbot Image" class="chatbot-image">
 
     <!-- Chatbot title -->
     <h1 class="chatbot-title">LUSI FILMS</h1>
