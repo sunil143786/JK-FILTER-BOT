@@ -47,8 +47,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #this shortlink working
-IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'ziplinker.net')
-IMPORT_JK_API = environ.get('IMPORT_JK_API', 'c992d5c6d3a74f6ceccbf9bc34aa27c8487c11d2')
+IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'tnshort.net')
+IMPORT_JK_API = environ.get('IMPORT_JK_API', 'f77e5e1d30a8796b43c289d298acfd5d5a56842b')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), False)
 
 # Others
