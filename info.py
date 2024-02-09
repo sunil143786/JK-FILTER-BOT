@@ -47,18 +47,18 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #this shortlink working
-IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'tnshort.net')
+IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'aslink.in')
 IMPORT_JK_API = environ.get('IMPORT_JK_API', 'f77e5e1d30a8796b43c289d298acfd5d5a56842b')
-IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
+IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), False)
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/BackupChannel0143/17")
-VERIFY2_URL = environ.get('VERIFY2_URL', "tnshort.net")
+VERIFY2_URL = environ.get('VERIFY2_URL', "aslink.in")
 VERIFY2_API = environ.get('VERIFY2_API', "f77e5e1d30a8796b43c289d298acfd5d5a56842b")
 
 # 👇==============this doesn't work===============👇
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'aslink.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'f77e5e1d30a8796b43c289d298acfd5d5a56842b')
 # ☝️==============don't remove this===============☝️
 
