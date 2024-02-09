@@ -49,7 +49,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #this shortlink working
 IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'aslink.in')
 IMPORT_JK_API = environ.get('IMPORT_JK_API', 'c43ff4321d649eb736eccdc2426cc06b7585f122')
-IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), False)
+IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
