@@ -52,7 +52,7 @@ IMPORT_JK_API = environ.get('IMPORT_JK_API', 'c43ff4321d649eb736eccdc2426cc06b75
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), False)
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/BackupChannel0143/17")
 VERIFY2_URL = environ.get('VERIFY2_URL', "aslink.in")
 VERIFY2_API = environ.get('VERIFY2_API', "c43ff4321d649eb736eccdc2426cc06b7585f122")
