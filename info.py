@@ -48,18 +48,18 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #this shortlink working
 IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'aslink.in')
-IMPORT_JK_API = environ.get('IMPORT_JK_API', 'f77e5e1d30a8796b43c289d298acfd5d5a56842b')
+IMPORT_JK_API = environ.get('IMPORT_JK_API', 'c43ff4321d649eb736eccdc2426cc06b7585f122')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), False)
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/BackupChannel0143/17")
 VERIFY2_URL = environ.get('VERIFY2_URL', "aslink.in")
-VERIFY2_API = environ.get('VERIFY2_API', "f77e5e1d30a8796b43c289d298acfd5d5a56842b")
+VERIFY2_API = environ.get('VERIFY2_API', "c43ff4321d649eb736eccdc2426cc06b7585f122")
 
 # 👇==============this doesn't work===============👇
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'aslink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'f77e5e1d30a8796b43c289d298acfd5d5a56842b')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c43ff4321d649eb736eccdc2426cc06b7585f122')
 # ☝️==============don't remove this===============☝️
 
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
