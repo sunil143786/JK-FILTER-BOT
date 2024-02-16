@@ -150,8 +150,7 @@ Nᴀᴍᴇ - {}"""
     CAPTION = """
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b><a href="https://t.me/myfilmyduniya0143">{file_name}</a><b>
 
-"""मेरे भाई बैकअप चैनल ज्वाइन कर के रखो📥 
-पता न कब कॉपीराइट आ जाए 👇"""
+
 ========== • ✠ • ==========
 ▫️ Backup Channel🤫 :  <a href="https://t.me/myfilmyduniya0143">Click Here</a>
 ▫️ Request Group🤫 :  <a href="https://t.me/Movie_Request_1m">Click Here</a>
