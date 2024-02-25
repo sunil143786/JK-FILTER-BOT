@@ -157,13 +157,13 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b><a href="https://t.me/myfilmyduniya0143">{file_name}</a><b>
+<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b><a href="https://t.me/The_Happy_Hour_Movie">{file_name}</a><b>
 
 मेरे भाई बैकअप चैनल ज्वाइन कर के रखो📥 
 पता न कब कॉपीराइट आ जाए 👇
 ========== • ✠ • ==========
-▫️ Backup Channel🤫 :  <a href="https://t.me/myfilmyduniya0143">Click Here</a>
-▫️ Request Group🤫 :  <a href="https://t.me/+vTH186XjkKc5ZDI1">Click Here</a>
+▫️ Backup Channel🤫 :  <a href="https://t.me/The_Happy_Hour_Movie">Click Here</a>
+▫️ Request Group🤫 :  <a href="https://t.me/The_Happy_HourTM">Click Here</a>
 ========== • ✠ • ==========
 </b>"""
 
