@@ -28,10 +28,10 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5069888600 6445840990 5272400279').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001964677353 -1002043695166').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002043695166').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', "-1001600337852")
+auth_channel = environ.get('AUTH_CHANNEL', "-1002114514596")
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -47,29 +47,29 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #this shortlink working
-IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'aslink.in')
-IMPORT_JK_API = environ.get('IMPORT_JK_API', 'db066611d1622def3020662694217310139d12c1')
+IMPORT_JK_SITE = environ.get('IMPORT_JK_SITE', 'jaynath.aslink.in')
+IMPORT_JK_API = environ.get('IMPORT_JK_API', 'fbbd56e9ba6e1d89b17f38d63a6a735a93f3809b')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/BackupChannel0143/64")
 VERIFY2_URL = environ.get('VERIFY2_URL', "aslink.in")
-VERIFY2_API = environ.get('VERIFY2_API', "db066611d1622def3020662694217310139d12c1")
+VERIFY2_API = environ.get('VERIFY2_API', "fbbd56e9ba6e1d89b17f38d63a6a735a93f3809b")
 
 # 👇==============this doesn't work===============👇
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'aslink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'db066611d1622def3020662694217310139d12c1')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'jaynath.aslink.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'fbbd56e9ba6e1d89b17f38d63a6a735a93f3809b')
 # ☝️==============don't remove this===============☝️
 
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movie_GroupTM')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Movie_Official_Hindi')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Jaynath_Req_Movie')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Jaynath_Movie_Channel')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL',  -1001539693613))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL',  -1002073485610))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'The_Happy_HourTM')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
